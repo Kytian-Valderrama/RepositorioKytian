@@ -7,10 +7,10 @@
 void setup() {
   Serial.begin(115200);
   Serial.println("Booting");
-  Serial.println("Nueva version");
+  Serial.println("Nueva version 2");
   pinMode(2,OUTPUT);
   digitalWrite(2,LOW);
-  setupOTA("ESP32-alvaro-salazar", MI_WIFI, MI_PASS);
+  setupOTA("ESP32-Kytian", MI_WIFI, MI_PASS);
 }
 
 void loop() {
